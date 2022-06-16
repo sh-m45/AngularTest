@@ -1,0 +1,33 @@
+.parentDiv{
+    background-color: #e7e9eb;
+  }
+  .box {
+    box-sizing: border-box;
+    border: 5px solid transparent;
+    background-clip: padding-box;
+  }
+  .contentBox{
+    border: 1px solid rgb(218, 216, 216) ;
+    border-radius: 0px !important;
+    position: relative;
+  }
+  .price{
+    color: gray;
+    font-size: 20px ;   
+  }
+  .btnCard{
+    position: absolute;
+    z-index: 999999;
+    top: 4%;
+    right: 4%;
+    color: white ;
+  }
+  .contentBoxDetials{
+    border: 1px solid rgb(218, 216, 216) ;
+    border-radius: 0px !important;
+    background-color: #e7e9eb;
+  }
+  .btnWarnSync{
+    width: 13% ;
+    
+  }
