@@ -1,14 +1,14 @@
-<div class="pt-4">
+<div class="sliderStyle pt-4">
     <h5>Products</h5>
     <ul class="list-unstyled mb-2">
         <li class="nav-item">
-          <a class="nav-link " [routerLink]="['/home']">All (8)</a>
+          <a class="nav-link " [routerLink]="['/products']">All ({{lengthProducts}})</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Simple Tools (3)</a>
+          <a class="nav-link" [routerLink]="['/three-tools']">Simple Tools ({{lengthProductsSimple}})</a>
         </li>
         <li class="nav-item">
-            <a class="nav-link" href="#">Complex tools (5)</a>
+            <a class="nav-link" [routerLink]="['/complex-tools']">Complex tools ({{lengthProductsComplex}})</a>
           </li>
     </ul>
 </div>
