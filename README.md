@@ -9,8 +9,8 @@ OpenStore products project
     - [Description](#Description)
 - [Run](#Run)
 - [Development](#my-process)
-    - [Built with](#built-with)
 - [Features](#features)
+- [Built with](#built-with)
 - [Author](#authors)
 
 ## Overview
