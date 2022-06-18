@@ -6,6 +6,7 @@ OpenStore products project
 
 - [Overview](#overview)
     - [GIF](#GIF)
+    - [Description](#Description)
 - [Run](#Run)
 - [Development](#my-process)
     - [Built with](#built-with)
@@ -18,6 +19,13 @@ OpenStore products project
 
 **[OpenStore GIF](https://drive.google.com/file/d/18tLzaWxhSX7rqcNBsa-lXfEJR1XmxxoQ/view?usp=sharing)**
 
+### Description
+In this Project Client Can :
+- Get a list of products.
+- Cache the products list at the first time when the user opens the website.
+- The global yellow sync button display all the products list.
+- The product sync blue button that specific product only and display id in url .
+- At the sidebar display all categories -> All tools , Simple Tools or Complex Tools .
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
