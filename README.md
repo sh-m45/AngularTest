@@ -49,9 +49,7 @@ In this Project Client Can :
 ## Features
 
 - Client Side Features:
-    - Can Display All Products .
-    - Can Display Simple Tools Products .
-    - Can Display Complex Tools Products .
+    - The client can display all the products in a simple way and pick up a specific type he wants
  
 
 ## Built with
