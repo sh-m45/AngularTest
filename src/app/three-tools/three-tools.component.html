@@ -11,7 +11,7 @@
                     <div class="d-flex justify-content-center w-100 bg-light ">
                         <img class="w-100" [src]="homeProduct.imageUrl" />
                     </div>
-                    <button class="btn btn-info btnCard">Sync</button>
+                    <a class="btn btn-info btnCard" (click)="showProduct(homeProduct.id)" >Sync{{homeProduct.id}}</a>
                 </div>
                 <div class="card contentBoxDetials pt-2">
                     <h5>{{homeProduct.name}}</h5>

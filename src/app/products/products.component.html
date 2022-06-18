@@ -1,16 +1,17 @@
 <div class="container pt-4 parentDiv">
     <div class="d-flex justify-content-between">
         <h3>Products</h3>
-        <a class="btn btn-warning btnWarnSync"  [routerLink]="['/products']">Sync</a>
+        <a class="btn btn-warning btnWarnSync" [routerLink]="['/products']">Sync</a>
     </div>
     <div class="row ">
+
         <div *ngFor="let homeProduct of homeProducts" class="col-md-3 text-center box mt-4">
-            
+
             <div class="contentBox ">
                 <div class="d-flex justify-content-center w-100 bg-light ">
                     <img class="w-100" [src]="homeProduct.imageUrl" />
                 </div>
-                <button class="btn btn-info btnCard">Sync</button>
+                <a class="btn btn-info btnCard" (click)="showProduct(homeProduct.id)" >Sync</a>
             </div>
             <div class="card contentBoxDetials pt-2">
                 <h5>{{homeProduct.name}}</h5>

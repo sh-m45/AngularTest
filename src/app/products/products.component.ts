@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { ProductsService } from '../products.service';
+import { Router, ActivatedRoute } from '@angular/router';
 @Component({
   selector: 'app-products',
   templateUrl: './products.component.html',
@@ -9,12 +10,21 @@ export class ProductsComponent implements OnInit {
   // products!: [] ;
   simpleProducts = [] ;
   complexProducts = [] ;
-
   homeProducts:any[] = [];
-  constructor(_ProductsService: ProductsService) { 
+  idCilck:number = 0;
+  
+  showProduct(index: number){
+    
+    this.idCilck = this.homeProducts[index-1].id ;   
+    this.router.navigate(['/products/', { id: this.idCilck }]);
+  }
+
+
+
+  constructor(_ProductsService: ProductsService, private route: ActivatedRoute, private router: Router) { 
     _ProductsService.getProducts().subscribe((response: any) => {
       this.homeProducts = response;
-      console.log(this.homeProducts);
+     
      //  localStorage.setItem("products", JSON.stringify(this.products));
       this.homeProducts.forEach((product: any) => {
        if(!product.imageUrl)
@@ -34,7 +44,6 @@ export class ProductsComponent implements OnInit {
       })
       localStorage.setItem("simpleProducts", JSON.stringify(this.simpleProducts));
       localStorage.setItem("complexProducts", JSON.stringify(this.complexProducts));
-      console.log(this.homeProducts);
       localStorage.setItem("products", JSON.stringify(this.homeProducts));
    });
   }
@@ -42,7 +51,6 @@ export class ProductsComponent implements OnInit {
   ngOnInit(): void {
     
     this.homeProducts = JSON.parse(localStorage.getItem('products') as string);
-    //console.log(this.homeProducts);
 
   }
 
