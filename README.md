@@ -34,13 +34,8 @@ OpenStore products project
 1) Clone the project
 
    ``` https://github.com/sh-m45/AngularTest.git ```
-
-2. Create local branch name **Development**
-    1. command  ```git branch Development ```
-3. Checkout to the Development branch
-    1. command ```git checkout Development```
-4. Lat step clone the Development branch to your local Development branch
-    1. command ```git pull origin Development```
+   
+   
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 ## Features
