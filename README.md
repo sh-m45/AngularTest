@@ -16,7 +16,7 @@ OpenStore products project
 
 ### GIF
 
-**[HTML5]([https://www.tutorialspoint.com/html5/index.htm](https://drive.google.com/file/d/18tLzaWxhSX7rqcNBsa-lXfEJR1XmxxoQ/view?usp=sharing))**
+**[HTML5](https://drive.google.com/file/d/18tLzaWxhSX7rqcNBsa-lXfEJR1XmxxoQ/view?usp=sharing)**
 
 
 <p align="right">(<a href="#top">back to top</a>)</p>
