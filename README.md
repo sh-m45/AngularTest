@@ -39,7 +39,7 @@ In this Project Client Can :
 
 ## Development
 
-1) Clone the project
+1) Clone the project -> git clone + link
 
    ``` https://github.com/sh-m45/AngularTest.git ```
    
