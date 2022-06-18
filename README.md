@@ -1,27 +1,68 @@
-# AngularTest
+# OpenStore
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.0.2.
+OpenStore products project
 
-## Development server
+## Table of contents
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+- [Overview](#overview)
+    - [GIF](#GIF)
+- [Run](#Run)
+- [Development](#my-process)
+    - [Built with](#built-with)
+- [Features](#features)
+- [Author](#authors)
 
-## Code scaffolding
+## Overview
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+### GIF
 
-## Build
+![screen-gif](./src/main/resources/Deployment/Client-Single.gif)
+![screen-gif](./src/main/resources/Deployment/Client-Multi.gif)
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+<p align="right">(<a href="#top">back to top</a>)</p>
 
-## Running unit tests
+## To run the project
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+1. in cmd -> cd AngularTest
+2. npm install
+3. code .
+4. ng serve --open
 
-## Running end-to-end tests
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+## Development
 
-## Further help
+1) Clone the project
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+   ``` https://github.com/sh-m45/AngularTest.git ```
+
+2. Create local branch name **Development**
+    1. command  ```git branch Development ```
+3. Checkout to the Development branch
+    1. command ```git checkout Development```
+4. Lat step clone the Development branch to your local Development branch
+    1. command ```git pull origin Development```
+<p align="right">(<a href="#top">back to top</a>)</p>
+
+## Features
+
+- Client Side Features:
+    - Can Display All Products .
+    - Can Display Simple Tools Products .
+    - Can Display Complex Tools Products .
+ 
+
+## Built with
+
+- **[Angular](https://angular.io/)**
+- Material design **[HTML5](https://www.tutorialspoint.com/html5/index.htm)**
+- Material design **[CSS3](https://www.tutorialspoint.com/css/css3_tutorial.htm)**
+
+
+
+<p align="right">(<a href="#top">back to top</a>)</p>
+
+## Authors
+
+* LinkedIn - [Shrouk Mamdoh](https://www.linkedin.com/in/shrouk-mamdoh-36510720a/)
+
+
