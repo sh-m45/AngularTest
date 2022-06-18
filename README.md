@@ -16,8 +16,8 @@ OpenStore products project
 
 ### GIF
 
-![screen-gif](./src/main/resources/Deployment/Client-Single.gif)
-![screen-gif](./src/main/resources/Deployment/Client-Multi.gif)
+![screen-gif](![screen-gif](./Desktop/OpenSource.gif)
+
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
